@@ -16,6 +16,10 @@ notebooks/_build
 # temporary directory
 /tmp
 
+# Python distribution
+
+
+
 # auxiliary files when compiling LaTeX 
 tex/*.aux
 tex/*.bbl
@@ -31,9 +35,6 @@ tex/*.toc
 tex/*.idx
 tex/*.ind
 tex/*.ilg
-
-# Jupyter Book
-/book
 
 # nohup .out file
 **/*.out
