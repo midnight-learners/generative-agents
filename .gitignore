@@ -16,9 +16,11 @@ notebooks/_build
 # temporary directory
 /tmp
 
-# Python distribution
+# large data directory
+data
 
-
+# secret environment configuration file
+**/.env
 
 # auxiliary files when compiling LaTeX 
 tex/*.aux

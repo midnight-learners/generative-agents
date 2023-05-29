@@ -1,5 +1,5 @@
 from xpyutils import lazy_property
-from ..location import Location
+from ..env import Place
 
 class Agent:
     
@@ -10,7 +10,7 @@ class Agent:
         
         self._name = name
     
-    @lazy_property.require_presence()
+    @property
     def name(self) -> str:
         """Agent name.
         """
@@ -18,7 +18,7 @@ class Agent:
         return self._name
     
     @property
-    def location(self) -> Location:
+    def place(self) -> Place:
         
         ...
     
